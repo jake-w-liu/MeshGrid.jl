@@ -6,6 +6,15 @@
 
 `MeshGrid.jl` is a simple Julia module that provides functionality similar to MATLAB's `meshgrid` function. It generates coordinate matrices from vectors or ranges, which are useful for evaluating functions over a grid in two or three dimensions.
 
+## Installation
+
+To install `MeshGrid.jl`, use the following command in the Julia REPL:
+
+```julia
+using Pkg
+Pkg.add("MeshGrid")
+```
+
 ## Some Examples
 
 These examples illustrate how `MeshGrid.jl` can handle different data types and mixed types. This flexibility makes it easier to translate MATLAB code into Julia, providing a familiar interface for those transitioning from MATLAB to Julia.
