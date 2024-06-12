@@ -17,7 +17,7 @@ Pkg.add("MeshGrid")
 
 ## Some Examples
 
-These examples illustrate how `MeshGrid.jl` can handle different data types and mixed types. This flexibility makes it easier to translate MATLAB code into Julia, providing a familiar interface for those transitioning from MATLAB to Julia.
+These examples illustrate how `MeshGrid.jl` can handle different data types and mixed types. This flexibility makes it easier to translate MATLAB code into Julia, providing a familiar interface for those transitioning from MATLAB to Julia. Note that the element data type of the output grid is the promotion of the input element data types.
 
 ### Example 1: Creating 2D Grid from Range
 
