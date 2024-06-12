@@ -2,7 +2,7 @@ module MeshGrid
 
 export meshgrid
 
-function meshgrid(x::Union{Vector, StepRangeLen, UnitRange}, y::Union{Vector, StepRangeLen, UnitRange})
+function meshgrid(x::Union{Vector, StepRangeLen, StepRange, UnitRange}, y::Union{Vector, StepRangeLen, StepRange, UnitRange})
 
     sx = length(x)
     sy = length(y)
@@ -20,7 +20,7 @@ function meshgrid(x::Union{Vector, StepRangeLen, UnitRange}, y::Union{Vector, St
     return (X, Y)
 end
 
-function meshgrid(x::Union{Vector, StepRangeLen, UnitRange}, y::Union{Vector, StepRangeLen, UnitRange}, z::Union{Vector, StepRangeLen, UnitRange})
+function meshgrid(x::Union{Vector, StepRangeLen, StepRange, UnitRange}, y::Union{Vector, StepRangeLen, StepRange, UnitRange}, z::Union{Vector, StepRangeLen, StepRange, UnitRange})
     
     sx = length(x)
     sy = length(y)
