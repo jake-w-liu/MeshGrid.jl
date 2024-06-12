@@ -1,6 +1,7 @@
 # MeshGrid.jl
 
-
+[![][docs-img]][docs-url]
+[![Build Status](https://github.com/akjake616/MeshGrid.jl/actions/workflows/ci-master-workflow.yml/badge.svg)](https://github.com/akjake616/MeshGrid.jl/actions/workflows/ci-master-workflow.yml)
 
 ## Overview
 
